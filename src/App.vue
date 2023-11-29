@@ -49,7 +49,7 @@ var Charlie = parseInt(A13)*parseInt(A12)
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Hanis Syafiqa" />
+  <HelloWorld msg="Hanis Syafiqa Khairil Azli" />
 
   <table>
   <tr>
