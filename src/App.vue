@@ -51,7 +51,7 @@ var Charlie = parseInt(A13)*parseInt(A12)
   </div>
   <HelloWorld msg="Hanis Syafiqa Khairil Azli" />
 
-  <table>
+  <table class="Table">
   <tr>
     <th>Index #</th>
     <th>Value</th> 
@@ -62,7 +62,7 @@ var Charlie = parseInt(A13)*parseInt(A12)
       </tr>
 </table>
 
-<table>
+<table class="Table">
   <tr>
     <th>Category</th>
     <th>Value</th>
@@ -87,7 +87,6 @@ var Charlie = parseInt(A13)*parseInt(A12)
 
 
 
-
 <style scoped>
 .logo {
   height: 6em;
@@ -101,4 +100,22 @@ var Charlie = parseInt(A13)*parseInt(A12)
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+
+.Table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.Table th, .Table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.Table th {
+  background-color: #f2f2f2;
+}
 </style>
+
